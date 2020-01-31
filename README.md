@@ -6,3 +6,5 @@ xcorr.py: Two synthetic waveforms are created, one with numerical noise and one 
 xcorr_many.py: Seismic data from a suite of earthquakes recorded at a volcano by a single seismometer over 15 hours. 20 seconds of seismic data is included in separate files for each earthquake. In this script, a cross-correlation matrix is created. The time of each event is plotted along both the x and y axis. The maximum correlation coefficient between any two events is plotted in colour. The waveform recorded by a seismometer for an earthquake is a function of source, path and instrument effects. Given that the same seismometer is used for all the events, instrument effects are assumed constant. Therefore, similar events must be triggered by a similar source in a similar location. Cross-correlation matrices can be used to infer that the source location is migrating through time, for example, if the correlation coefficient progressively decreases as a function of the time interval between earthquakes being cross-correlated. 
 
 Please note that the data associated with these scripts is not uploaded to Github.
+
+Language: Python
